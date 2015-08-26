@@ -20,9 +20,38 @@ div {
 }
 
 #logo {
-	margin-top: 40%;
+	margin-top: 33%;
+}
+
+#my-name {
+	font-size: 3em;
 }
 
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+	padding-top: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #D8D8D8;
 }

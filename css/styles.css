@@ -16,7 +16,7 @@ body {
 }
 
 
-/*#logo {
+#logo {
 	margin-top: 33%;
 }
 
@@ -29,12 +29,11 @@ h1 {
 }
 
 ul {
-	padding-top: 20px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 18px;
 }
 
-li {
+/*li {
 	display: inline;
 	list-style-type: none;
 	padding: 20px;
@@ -51,7 +50,7 @@ a:visited {
 
 a:hover {
 	color: #D8D8D8;
-}*/
+} */
 
 .color-black {
 	color: #000000;
@@ -64,3 +63,12 @@ a:hover {
 .icon-bar {
 	background-color: #000000;
 }
+
+/*#ZN {
+	display: none;
+}
+
+@media (max-width: 768px;) {
+	#ZN {
+		display: block;
+}*/

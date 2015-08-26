@@ -26,24 +26,50 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Work+Sans:200,400' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.11.3.min.js"></script>
 
   </head>
-  <body>
+  <body data-toggle="navbar-collapse">
 
-  	<nav>
+  	<nav class="navbar navbar-fixed-top">
+      
+      <div class="container-fluid">
 
-  		<ul>
+        <div class="navbar-header">
 
-  			<a href="#"><li>Home</li></a>
-  			<a href="#"><li>About</li></a>
-  			<a href="#"><li>Work</li></a>
-  			<a href="#"><li>Contact</li></a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 
-  		</ul>
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
 
-  	</nav>
+          </button>
+          
+          <a href="#home" class="navbar-brand color-black">ZN</a> 
+          <!-- <span class="glyphicon glyphicon-calendar" id="nav-calendar"></span> -->
 
-  	<div class="container">
+        </div>
+
+        <div class="collapse navbar-collapse">
+
+          <ul class="nav navbar-nav navbar-left">
+
+            <li><a class="color-black" href="#">Home</a></li>
+            <li><a class="color-black" href="#">About</a></li>
+            <li><a class="color-black" href="#">Work</a></li>
+            <li><a class="color-black" href="#">Contact</a></li>
+
+          </ul>	
+
+        </div>
+
+      </div>
+
+    </nav>
+
+
+  	<!-- <div class="container">
 
   		<div class="row">
 
@@ -56,7 +82,7 @@
 
   		</div>
 
-  	</div>
+  	</div> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

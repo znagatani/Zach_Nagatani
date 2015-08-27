@@ -33,10 +33,10 @@ ul {
 	font-size: 18px;
 }
 
-/*li {
+li {
 	display: inline;
 	list-style-type: none;
-	padding: 20px;
+	/*padding: 20px;*/
 }
 
 a:link {
@@ -50,7 +50,8 @@ a:visited {
 
 a:hover {
 	color: #D8D8D8;
-} */
+	background-color: transparent;
+} 
 
 .color-black {
 	color: #000000;
@@ -72,3 +73,9 @@ a:hover {
 	#ZN {
 		display: block;
 }*/
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
